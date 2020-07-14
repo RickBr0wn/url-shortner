@@ -9,6 +9,13 @@
   box-sizing: inherit;
 }
 
+:root {
+  --highlight-pink: #ff3e81;
+  --highlight-blue: #0056b3;
+  --header-purple: #303669;
+  --header-color: #212529;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
