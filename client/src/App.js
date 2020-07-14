@@ -8,15 +8,25 @@ import Pricing from './components/Pricing'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+`
+
 function App() {
   return (
     <div>
       <Navbar />
-      <Main />
-      <Examples />
-      <Pricing />
-      <Contact />
-      <Footer />
+      <Wrapper>
+        <Main />
+        <Examples />
+        <Pricing />
+        <Contact />
+        <Footer />
+      </Wrapper>
     </div>
   )
 }

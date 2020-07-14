@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   flex-direction: 'row';
   justify-content: space-evenly;
   padding: 0 6rem;
+  border-bottom: solid rgba(0, 0, 0, 0.1) 2px;
 `
 
 const Logo = styled.div`
@@ -43,7 +44,7 @@ const Buttons = styled.div`
   flex: 2;
 `
 
-const Button = styled.button`
+export const Button = styled.button`
   display: flex;
   align-items: center;
   height: 2.4rem;
