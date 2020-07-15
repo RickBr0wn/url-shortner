@@ -4,9 +4,9 @@ import {
   FaHandsHelping,
   FaLink,
   FaUserShield,
-  FaCalendar,
   FaBiohazard,
   FaMobile,
+  FaStopwatch,
 } from 'react-icons/fa'
 
 const Wrapper = styled.div`
@@ -83,7 +83,7 @@ function Examples() {
       </Card>
       <Card>
         <CardIcon>
-          <FaCalendar />
+          <FaStopwatch />
         </CardIcon>
         <CardText>
           Check the amount of clicks that your <Bold>tiny-url</Bold> received
