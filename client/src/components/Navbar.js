@@ -3,12 +3,18 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   height: 7.5rem;
+  width: 100vw;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: 'row';
   justify-content: space-evenly;
   padding: 0 6rem;
   border-bottom: solid rgba(0, 0, 0, 0.1) 2px;
+`
+
+const StyledNav = styled.nav`
+  position: fixed;
 `
 
 const Logo = styled.div`
@@ -82,18 +88,20 @@ export const Button = styled.button`
 
 function Nav() {
   return (
-    <Wrapper>
-      <Logo>tiny-url</Logo>
-      <Links>
-        <Link>Services</Link>
-        <Link>Pricing</Link>
-        <Link>Contact Us</Link>
-      </Links>
-      <Buttons>
-        <Button color="pink">Log In</Button>
-        <Button color="blue">Sign Up</Button>
-      </Buttons>
-    </Wrapper>
+    <StyledNav>
+      <Wrapper>
+        <Logo>tiny-url</Logo>
+        <Links>
+          <Link>Services</Link>
+          <Link>Pricing</Link>
+          <Link>Contact Us</Link>
+        </Links>
+        <Buttons>
+          <Button color="pink">Log In</Button>
+          <Button color="blue">Sign Up</Button>
+        </Buttons>
+      </Wrapper>
+    </StyledNav>
   )
 }
 

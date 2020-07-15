@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   align-items: space-around;
   justify-content: center;
   max-width: 110rem;
+  margin-top: 12rem;
 `
 
 const Panel = styled.div`
